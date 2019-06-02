@@ -48,3 +48,4 @@ class CaptureManager:
     @property
     def is_writing_video(self):
         return self._video_filename is not None
+
