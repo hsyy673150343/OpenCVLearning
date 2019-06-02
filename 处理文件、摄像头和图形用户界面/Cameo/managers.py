@@ -42,10 +42,9 @@ class CaptureManager:
         return self._frame
 
     @property
-    def is_wrinting_image(self):
-        return  self._image_filename is not None
+    def is_writing_image(self):
+        return self._image_filename is not None
 
     @property
     def is_writing_video(self):
-        return  self._video_filename is not None
-    
+        return self._video_filename is not None
